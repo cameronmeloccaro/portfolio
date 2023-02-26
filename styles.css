@@ -38,7 +38,8 @@ ul {
 .closing-text {
     line-height: 2.5;
     color: #6b54ee;
-    font-size: 9pt;
+    font-size: 10pt;
+    overflow: scroll;
 }
 
 .divider {
