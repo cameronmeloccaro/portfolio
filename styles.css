@@ -366,12 +366,13 @@ ul {
 #navContainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-even;
     position: fixed;
     z-index: 1;
     float: right;
-    width: 70%;
+    width: 100%;
     background-color: #141124;
+
     
 }
 
