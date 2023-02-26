@@ -38,6 +38,7 @@ ul {
 .closing-text {
     line-height: 1.6;
     color: #6b54ee;
+    font-size: 9pt;
 }
 
 .divider {
@@ -473,7 +474,7 @@ ul {
 
 .skills-text {
     color: white;
-    line-height: 1.6;
+    line-height: 2.0;
 }
 
 #skillsText {
@@ -549,9 +550,6 @@ ul {
         width: 25%;
         font-size: 11pt;
         
-    }
-    .closing-text {
-        font-size: 9pt;
     }
 
     #mainButtons:hover {
