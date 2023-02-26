@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio: Cameron Meloccaro</title>
+</head>
+<body>
+    <nav id="navBar">
+        <div id="navContainer">
+            <div id="logoText" alt="Cameron Meloccaro" onclick="location.href='#mainFocus'"></div>
+            <div class ="topNav">
+                <ul id="navGroup">
+                    <li class="navBtn" onclick="location.href='#home'"><a href="#home">Home</a></li>
+                    <li class="navBtn" onclick="location.href='#skills'"><a href="#skills">Skills</a></li>
+                    <li class="navBtn" onclick="location.href='#projects'"><a href="#projects">Projects</a></li>
+                    <li class="navBtn" onclick="location.href='#contact-form'"><a href="#contact-form">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="home">
+        <div id="mainBanner">
+            <h2 id="job-title">Hey, my name is Cameron Meloccaro, and I'm a <span id="changingText" class="fade-text">front <br>end developer.</span></h2>
+        </div>
+        
+        
+    </section>
+    <section id="learn-more-section">
+        <h3>Learn more about me and my skills by clicking the arrow below</h3>
+    </section>
+    <section id="mainButtonLayout">
+
+            <button id="mainButtons" onclick="window.location.href='resume.html'">Resume</button>
+            <button id="mainButtons" onclick="window.location.href='about.html'">About Me</button>
+
+        
+    </section>
+    <section id="downArrow">
+        <div onclick="location.href='#skills'" id="hoverBox">
+            <i id="arrow" ></i>
+        </div>
+    </section>
+
+
+    <section id="skills">
+        <div id="testbox">
+
+        
+
+        <div class="divider">
+            <h2 class="divider-text">My Skills</h2>
+            <div class="greybar"></div>
+        </div>
+
+        <div id="skillsContainer">
+            <div class="skills-box">
+                <h2>Programming Languages</h2>
+                <ul id="languageList">
+                <li>
+                    <div class="language">C#</div>
+                    <div class="progress">
+                    <div class="progress-bar" style="width: 80%;"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="language">Java</div>
+                    <div class="progress">
+                    <div class="progress-bar" style="width: 70%;"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="language">JavaScript</div>
+                    <div class="progress">
+                    <div class="progress-bar" style="width: 50%;"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="language">HTML/CSS</div>
+                    <div class="progress">
+                    <div class="progress-bar" style="width: 90%;"></div>
+                    </div>
+                </li>
+                </ul>
+            </div>
+            <div id="skillsText">
+                <h2 id="skills-title">Skills</h2>
+                <p class="skills-text">As a skilled developer, I bring a range of technical skills to the table. I have exceptional
+                     proficiency in HTML, CSS, and JavaScript, which has allowed me to design and build web pages and applications 
+                     such as this one. Additionally, I possess a solid understanding of C# and Java programming languages, enabling me
+                      to develop robust and scalable software solutions. Whether I'm working on front-end or back-end projects, my technical 
+                      abilities enable me to create efficient, responsive, and visually appealing products that meet the needs of clients
+                       and end-users alike.</p>
+
+            </div>
+
+        </div>
+          
+
+    </div>
+    
+    </section>
+
+    <section id="projectsPage">
+        <div id="projects"></div>
+        <div id="testbox2">
+            
+        <div class="projects-divider">
+            <h2 id="projects-divider-text">My Projects</h2>
+            <div class="greybar"></div>
+        </div>
+        <div id="projects-box-container">
+            <div id="projectsContainer" class="gradient-projects-top">
+                <div class="projectBox">
+                    <div class="projectImgBox" id="project-one"></div>
+                    <div class="projectTitleBox">Portfolio Website</div>
+                </div>
+                <div class="projectBox" id="hallofheat-redirect">
+                    <div class="projectImgBox" id="project-two"></div>
+                    <div class="projectTitleBox">Hall of Heat</div>
+                </a>
+                </div>
+                <div class="projectBox">
+                    <div class="projectImgBox"></div>
+                    <div class="projectTitleBox">Coming soon...</div>
+                </div>
+            </div>
+            <div id="projectsContainer" class="gradient-projects-bottom">
+                <div class="projectBox">
+                    <div class="projectImgBox"></div>
+                    <div class="projectTitleBox">Coming soon...</div>
+                </div>
+                <div class="projectBox">
+                    <div class="projectImgBox"></div>
+                    <div class="projectTitleBox">Coming soon...</div>
+                </div>
+                <div class="projectBox">
+                    <div class="projectImgBox"></div>
+                    <div class="projectTitleBox">Coming soon...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="contactPage">
+        <div id="contactLayout">
+
+            <div id="salutation-box">
+                <h3>Thanks for coming...</h3>
+                <p class="closing-text">Thank you for visiting my website! I hope you found the information and resources here useful. If you have 
+                    any questions, feedback, or would simply like to say hello, please feel free to reach out using the contact form 
+                    provided on the website. I would be more than happy to hear from you and will do my best to respond as quickly as possible. 
+                    Thank you again for your interest in my work!</p>
+            </div>
+            
+            
+                <div id="contact-form">
+                    <h3 id="contactTitle">Contact Me!</h3>
+                    <form id="formBox" method="post" action="contact.php">
+                        <input class="inputBox" type="text" name="name" placeholder="First name">
+                        <input class="inputBox" type="text" name="email" placeholder="Email">
+                        <textarea class="inputBoxComment" name="message" rows="8" cols="50" placeholder="Let me know what you think..."></textarea>
+                        <input id="contact-submit-button" class="submit-contact" type="submit" value="Send">
+                    </form>
+
+                    
+                </div>
+                
+        </div>
+    </section>
+    
+    
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>
