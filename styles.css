@@ -366,7 +366,7 @@ ul {
 #navContainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-even;
+    justify-content: space-evenly;
     position: fixed;
     z-index: 1;
     float: right;
