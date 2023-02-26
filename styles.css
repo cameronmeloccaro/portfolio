@@ -537,6 +537,8 @@ ul {
     }
     #mainButtons {
         width: 25%;
+        font-size: 11pt
+        
     }
 
     #mainButtons:hover {
