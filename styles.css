@@ -366,7 +366,7 @@ ul {
 #navContainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-even;
     position: fixed;
     z-index: 1;
     float: right;
@@ -549,6 +549,9 @@ ul {
         width: 25%;
         font-size: 11pt;
         
+    }
+    .closing-text {
+        font-size: 9pt;
     }
 
     #mainButtons:hover {
