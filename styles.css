@@ -528,6 +528,9 @@ ul {
 
     #navContainer {
         height: auto;
+        display: flex;
+        flex-firection: row;
+        justify-content: left;
     }
 
     #job-title {
