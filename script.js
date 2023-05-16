@@ -1,4 +1,4 @@
-const words = ["front <br>end developer.", "web <br>designer.", "diligent <br>developer
+const words = ["front <br>end developer.", "web <br>designer.", "diligent <br>developer."];
 
 let currentIndex = 0;
 
